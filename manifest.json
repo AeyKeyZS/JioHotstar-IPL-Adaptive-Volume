@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Hotstar Ad Tracker & Volume Controller",
+  "version": "1.2",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "storage",
+    "activeTab",
+    "*://bifrost-api.hotstar.com/*",
+    "*://*.hotstar.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.hotstar.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "icons/JHVM.png"
+  ],
+  "icons": {
+    "48": "icons/JHVM.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Hotstar Ad Tracker"
+  }
+}
