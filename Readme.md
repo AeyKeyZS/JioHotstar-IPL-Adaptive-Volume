@@ -6,6 +6,8 @@
 
 JioHotstar IPL Adaptive Volume is a Chrome extension that automatically adjusts the volume on JioCinema/Hotstar during IPL matches.
 
+<img src="demo.gif" width="500" alt="demo gif"/>
+
 It detects ad playback and lowers the volume, restoring it once the ad ends. This ensures a seamless and non-intrusive viewing experience without the need for manual volume adjustments.
 
 ## Features
@@ -32,8 +34,6 @@ It detects ad playback and lowers the volume, restoring it once the ad ends. Thi
 2. Navigate to JioCinema/Hotstar and start watching an IPL match.
 3. Click on the extention and click `Start`.
 3. The extension will automatically adjust the volume when ads play.
-
-<img src="demo.gif" width="500" alt="demo gif"/>
 
 
 ## License
