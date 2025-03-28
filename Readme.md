@@ -4,7 +4,7 @@
 
 ## Overview
 
-JioHotstar IPL Adaptive Volume is a Chrome extension that automatically adjusts the volume on JioCinema/Hotstar during IPL matches.
+JioHotstar IPL Adaptive Volume is a Chrome extension that automatically adjusts the volume on JioHotstar during IPL matches.
 
 <img src="demo.gif" width="500" alt="demo gif"/>
 
