@@ -33,6 +33,8 @@ It detects ad playback and lowers the volume, restoring it once the ad ends. Thi
 3. Click on the extention and click `Start`.
 3. The extension will automatically adjust the volume when ads play.
 
+<img src="demo.gif" width="500" alt="demo gif"/>
+
 
 ## License
 
